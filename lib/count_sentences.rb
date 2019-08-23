@@ -29,7 +29,7 @@ class String
   def count_sentences
     binding.pry
     counted = self.split(/[.!?]/)
-  
+    
   end 
   
 end

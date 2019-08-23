@@ -29,5 +29,5 @@ class String
   def count_sentences
     counted = self.split(/[A-Z]\s+[?!.]/).count
   end 
-  counted
+  
 end

@@ -30,6 +30,7 @@ class String
    
     counted = self.split(/[.!?]/)
     counted.delete_if {|string| string == "" }
+    counted.count
   end 
   
 end
